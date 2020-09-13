@@ -1,0 +1,18 @@
+Groups related - tools together.
+Makes it easy to know where to look for a perticular tool.
+Common examples:
+               * Matplotlib - Creat a Chats.
+               * Pandas - Learn tabula data.
+               * Scikit - which performs Machine learning.
+               * Scipy  - Contain Statstics.
+               * nltk   - Help textdata.
+ import pandas as pd
+ from matplotlib import pyplot as plt
+
+- Pandas gives us the tools to read data from the file.
+- Matplotlib gives us the tools to plot the data.
+- seaborn gives us a visualisation library, usually aliased as sns.
+
+Each modules has a standard alias, which allows you to access the tools inside of the module
+without typing a many character. EX : aliasing lets shorten
+Seaborn, scatterplot(), to sns.seatterplot().
